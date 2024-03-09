@@ -2,7 +2,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 26px 1fr;
-    grid-gap: 1rem;
 }
 
 #logo {
