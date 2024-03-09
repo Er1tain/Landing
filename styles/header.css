@@ -1,4 +1,15 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 26px 1fr;
+    grid-gap: 1rem;
+}
+
 #logo {
-    margin-left: 349px;
-    display: flex;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#logo_text {
+    margin-left: 5px;
 }
