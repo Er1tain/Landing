@@ -1,0 +1,16 @@
+#events_group {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#events_1_2_4_5 {
+    grid-column-start: 2;
+}
+
+#event_3 {
+    grid-column-start: 3;
+}
+
+#event_6 {
+    grid-column-start: 2;
+}

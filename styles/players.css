@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Golos_text';
+    src: url("fonts/Golos text.ttf");
+}
+
+.persons p span {
+
+    opacity: 0.6;
+}
+
+#players {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#data_persons {
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+
+}
+
+.persons {
+    font-family: 'Golos_text';
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#players_text {
+    display: flex;
+    justify-content: space-around;
+}
+
+#player_buttons {
+    display: flex;
+    gap: 14px;
+}
+
+#players button {
+    font-family: 'Golos_text';
+    font-size: 16px;
+    border: 1px solid #3057A2;
+    color: #3057A2;
+    background-color: white;
+    border-radius: 12px;
+}
+
+#player_buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player_buttons button {
+    width: 44px;
+    height: 44px;
+    background-color: black;
+    border-radius: 35px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player_buttons span {
+    opacity: 0.6;
+}
+
+#player_buttons button:last-child {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url("fonts/Merriweather.ttf");
+}
+
+@font-face {
+    font-family: 'Golos_text';
+    src: url("fonts/Golos text.ttf");
+}
+
+#Vasuki {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 200px 1fr;
+
+}
+
+#Vasuki_text {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    white-space: nowrap;
+
+
+}
+
+#Vasuki_text a {
+    font-family: 'Golos_text';
+    text-decoration: none;
+    color: #3057A2;
+}
+
+
+#events_1_2_4_5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: 'Golos_text';
+    font-size: 20px;
+}
+
+#event_1 {
+    grid-column-start: 2;
+
+}
+
+#event_4  {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+#event_5  {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 1px solid black;
+    font-family: 'Golos_text';
+    font-size: 20px;
+}
+
+.round {
+    width: 36px;
+    height: 36px;
+    background: black;
+    border-radius: 20px;
+    grid-column-end: 2;
+    color: white;
+
+    text-align: center;
+
+}
+

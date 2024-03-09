@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Golos_text';
+    src: url("fonts/Golos text.ttf");
+}
+
+#Welcome {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    margin-top: 62px;
+    height: min-content;
+}
+
+#Welcome #panel {
+    display: grid;
+    grid-template-rows: 4fr 1fr 2fr;
+    grid-column-start: 2;
+    grid-gap: 24px;
+}
+
+
+
+#Welcome #panel #buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#Welcome #panel #buttons button {
+    height: 72px;
+    border-radius: 66px;
+
+    font-size: 16px;
+    font-family: 'Golos_text';
+
+}
+
+#Welcome #panel #buttons button:first-child {
+    background-color: black;
+    color: white
+}
+
+#Welcome #panel #buttons button:first-child:hover {
+    background-color: #FBCE51;
+    color: black;
+    border: none;
+}
+
+#Welcome #panel #buttons button:last-child:hover {
+    background-color: black;
+    color: white
+}

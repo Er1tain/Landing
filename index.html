@@ -5,7 +5,13 @@
     <title>Клуб четырех коней</title>
     <link href="styles\body.css" rel="stylesheet">
     <link href="styles\header.css" rel="stylesheet">
-    <link href="styles\Welcome.css">
+    <link href="styles\Welcome.css" rel="stylesheet">
+    <link href="styles\line.css" rel="stylesheet">
+    <link href="styles\debut.css" rel="stylesheet">
+    <link href="styles\seans.css" rel="stylesheet">
+    <link href="styles\Vasuki.css" rel="stylesheet">
+    <link href="styles\events_group.css" rel="stylesheet">
+    ,<link href="styles\players.css"  rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,10 +28,154 @@
         <div id="panel">
             <img src="images\Welcome\Welcome_text.svg">
 
+            <img src="images\Welcome\pay_text.svg">
 
+            <div id="buttons">
+                <button>Поддержать<br> шахматную мысль</button>
+                <button>Подробнее<br> о турнире</button>
+            </div>
 
         </div>
     </section>
+    <div id="line">
+        <ul>
+            <li>ДЕЛО ПОМОЩИ УТОПАЮЩИМ — ДЕЛО РУК САМИХ УТОПАЮЩИХ!</li>
+
+            <li>ШАХМАТЫ ДВИГАЮТ ВПЕРЕД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!</li>
+
+            <li>ЛЕД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!</li>
+        </ul>
+    </div>
+
+    <section id="debut">
+        <div id="idea">
+            <img src="images\debut\idea.svg">
+        </div>
+        <div id="chessmaster">
+            <img src="images\debut\chessmaster.svg">
+        </div>
+
+    </section>
+
+    <section id="seans">
+        <div id="pawn_kick_knight">
+            <img src="images\debut\pawn_kick_knight.svg">
+        </div>
+        <div id="seans_group">
+            <div id="desks_160">
+                <img src="images\seans_group\desks_160.svg">
+            </div>
+            <div id="datatable">
+                <img src="images\seans_group\datatable.svg">
+            </div>
+            <a href="#">По всем вопросам обращаться в администрацию к К.Михельсону</a>
+        </div>
+    </section>
+
+    <section id="Vasuki">
+        <div id="Vasuki_text">
+            <img src="images\Vasuki\Vasuki.svg">
+            <a href="#">Будущие источники обогащения васюкинцев</a>
+        </div>
+
+
+    </section>
+    <div id="events_group">
+
+        <div id="events_1_2_4_5">
+            <div class="event" id="event_1">
+                <div class="round">
+                    1
+                </div>
+                <p>Строительство<br> железнодорожной<br> магистрали Москва-Васюки</p>
+            </div>
+
+            <div class="event" id="event_2">
+                <div class="round">
+                    2
+                </div>
+                <p>Открытие фешенебельной<br> гостиницы «Проходная пешка»<br> и других небоскрёбов</p>
+            </div>
+
+            <div class="event" id="event_4">
+                <div class="round">
+                    4
+                </div>
+                <p>Строительство дворца<br> для турнира</p>
+            </div>
+
+            <div class="event" id="event_5">
+                <div class="round">
+                    5
+                </div>
+                <p>Размещение гаражей<br> для гостевого<br> автотранспорта</p>
+            </div>
+        </div>
+        <div class="event" id="event_3">
+            <div class="round">
+                3
+            </div>
+            <p>Поднятие сельского<br> хозяйства в радиусе<br> на тысячу километров:<br> производство овощей<br>, фруктов, икры, шоколадных<br> конфет</p>
+        </div>
+        <div class="event" id="event_6">
+            <div class="round">
+                6
+            </div>
+            <p>Постройка сверхмощной<br> радиостанции для передачи<br> всему миру сенсационных<br> результатов</p>
+        </div>
+        <div class="event" id="event_7">
+        <div class="round">
+            7
+        </div>
+        <p></p>
+    </div>
+    </div>
+
+    <section id="players">
+            <div id="players_text">
+                <img src="images\players\text.svg">
+                <div id="player_buttons">
+                    <button>
+                        <img src="images\players\arrow.svg">
+                    </button>
+                    <div>
+                        3 <span>/ 6</span>
+                    </div>
+                    <button>
+                        <img src="images\players\arrow.svg">
+                    </button>
+                </div>
+            </div>
+            <div id="data_persons">
+                <div class="persons" id="person_1">
+                    <img src="images\players\person.svg">
+                    <p>ХОЗЕ-РАУЛЬ КАПАБЛАНКА</p>
+                    <p><span>Чемпион мира по шахматам</span></p>
+
+                    <button>Подробнее</button>
+                </div>
+                <div class="persons" id="person_2">
+                    <img src="images\players\person.svg">
+                    <p>ЭММАНУИЛ ЛАСКЕР</p>
+                    <p><span>Чемпион мира по шахматам</span></p>
+
+                    <button>Подробнее</button>
+                </div>
+                <div class="persons" id="persons_3">
+                    <img src="images\players\person.svg">
+                    <p>АЛЕКСАНДР АЛЕХИН</p>
+                    <p><span>Чемпион мира по шахматам</span></p>
+
+                    <button>Подробнее</button>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+
+    </footer>
 
 </body>
+
+<script src="scripts\RunningLine.js"></script>
 </html>

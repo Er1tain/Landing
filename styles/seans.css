@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Golos_text';
+    src: url("fonts/Golos text.ttf");
+}
+
+#seans {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-gap: 44px;
+}
+
+#pawn_kick_knight {
+    grid-column-start: 2;
+
+
+}
+
+#seans_group {
+    display: grid;
+    grid-template-rows: 1fr 60px 1fr;
+}
+
+#datatable {
+    grid-row-start: 2;
+}
+
+#seans_group a{
+    grid-row-start: 4;
+    font-family: 'Golos_text';
+    text-decoration: none;
+    color: #3057A2;
+;
+}
