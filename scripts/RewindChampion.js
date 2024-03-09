@@ -1,0 +1,7 @@
+function preventPerson() {
+
+}
+
+function nextPerson() {
+
+}
